@@ -8,15 +8,13 @@ body {
     padding: 1.5rem 2rem;
     text-align: center;
     max-width: 300px;
-    margin: 3rem;
+    margin: 3rem auto;
     border-radius: 0.5rem;
-    border:  1px solid black;
+    border:  1px solid transparent;
 }
 .card-1 {
     border-color: #ff69a6;
-}
-.card-2 {
-    border-color: #68a3ff;
+
 }
 
 .icon {
@@ -26,11 +24,15 @@ body {
 }
 
 .card-1 .icon{
-    border-color: #ff69a6;
+    background: #ff69a6;
+}
+
+.card-2 {
+    border-color: #68a3ff;
 }
 
 .card-2 .icon{
-    border-color: #68a3ff;
+    background: #68a3ff;
 }
 
 .btn {

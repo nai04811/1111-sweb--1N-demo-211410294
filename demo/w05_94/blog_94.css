@@ -50,6 +50,15 @@ body {
     margin: 0 auto;
     /*max-width: 500px;*/
 }
+.blog-center2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 2rem;
+  width: var(--fluid-width);
+  max-width:var(--max-width);
+  margin: 0 auto;
+  /*max-width: 500px;*/
+}
 
 .blog {
   background-color: white;

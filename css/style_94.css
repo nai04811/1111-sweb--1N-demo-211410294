@@ -202,9 +202,14 @@ Navbar
     margin: 0 auto;
 }
 
-.nav-link {
+.nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+}
+
+.show-classdemo {
+    width: 100vw;
+    height: calc(100vh - 5rem);
 }

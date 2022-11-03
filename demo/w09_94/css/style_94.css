@@ -588,15 +588,35 @@ tiles
 .tile-6 {
   grid-area: d;
 }
-.tile-6 {
+.tile-7 {
   grid-area: f;
 }
-.tile-7 {
+.tile-8 {
   grid-area: a;
 }
-.tile-8 {
+.tile-9 {
   grid-area: i;
 }
 
+/*
+===============
+resume
+===============
+*/
+.main-resume-section {
+  min-height: 100vw;
+  width: 80vw;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 30fr 70fr;
+}
 
+.resume-left {
+  background-color: #00324a;
+  height: 100%;
+}
 
+.resume-right {
+  background-color: #ede4e4;
+  height: 100%;
+}

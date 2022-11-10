@@ -19,6 +19,15 @@ function change(index) {
             p.innerHTML = `<iframe src="./demo/w06_94/blog_94.html" 
             width="100%" height="100%"/>`
           break;
+          case 5:
+            p.innerHTML = `<iframe src="./demo/w09_94/landing_94.html" 
+            width="100%" height="100%"/>`
+          break;
+        case 6:
+            p.innerHTML = `<iframe src="./demo/w09_94/resume.html" 
+            width="100%" height="100%"/>`
+          break;
     }
+    
 
 }
